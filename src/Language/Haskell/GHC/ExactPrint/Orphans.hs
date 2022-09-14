@@ -52,9 +52,6 @@ instance Default EpAnnHsCase where
 instance Default AnnsIf where
   def = AnnsIf def def def def def
 
-instance Default AnnsLet where
-  def = AnnsLet def def
-
 instance Default AnnProjection where
   def = AnnProjection def def
 
